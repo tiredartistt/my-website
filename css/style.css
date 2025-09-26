@@ -1,0 +1,120 @@
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fafafa;
+    color: #222;
+  }
+	
+@font-face {
+  font-family: 'Typo Formal Bold Italic';
+  src:url("../fonts/Typo Formal Bold Italic Demo.otf");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Typo Formal Light';
+  src:url("../fonts/Typo Formal Light Demo.otf");
+  font-weight: 100;
+  font-style: normal;
+}
+	.bold-font {
+	font-family: 'Typo Formal Bold Italic', sans-serif;
+	font-size: 25px
+	}
+	
+	.regular {
+	font-family: 'Typo Formal Light', sans-serif;
+	font-size: 25px
+	}
+	
+  .page {
+    max-width: 1040px;
+    margin: 24px auto;
+    background: #fff;
+    padding: 24px;
+  }
+
+  h1, h2 { margin: 0 0 .5rem; }
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.25rem; color: #444; }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .block {
+    flex: 1;
+    min-width: 200px;
+    background: #fff;
+    border: 0px solid #ddd;
+    border-radius: 8px;
+    padding: .75rem;
+  }
+
+  .imgbox {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .imgbox img {
+    max-width: 100%;
+	max-height: 100%;
+    height: auto;
+	object-fit: contain;
+  }
+
+  .label {
+    margin-top: .5rem;
+    font-size: .9rem;
+    color: #555;
+    text-align: center;
+  }
+
+ 
+  .swatch {
+    flex: 1;
+    min-width: 160px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    background: #fff;
+  }
+  .chip {
+    height: 90px;
+    background: var(--c, #ddd);
+  }
+  .meta {
+    padding: .5rem .75rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: .9rem;
+  }
+.fontbox {
+  flex: 1 1 45%; 
+  min-width: 250px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+	
+	.fontrow {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 2rem;
+    margin: 1.5rem;
+  }
+	
+
+  .meta b { font-weight: 600; }
+  .meta span { font-family: monospace; color: #666; }
