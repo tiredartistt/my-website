@@ -1,0 +1,4 @@
+# Main site settings (title, theme, URL, etc.)
+title: My Website
+description: A personal site for my projects
+theme: minima
