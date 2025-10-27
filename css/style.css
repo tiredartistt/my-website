@@ -125,6 +125,7 @@
   body {
     background-image: url("../img/mobile_bg.png");
     min-height: 2850px;
+	max-width: 430px;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -150,6 +151,7 @@
     width: 100%;
     height: auto;
     margin-top: 4rem;
+	display: none;
   }
 
   #white-paper {
@@ -179,7 +181,9 @@
   }
 
   .tagtext {
-    margin: 20px;
+	width: 348px;
+	 height: 120px;
+    margin: 15px;
     position: absolute;
     top: -4px;
     left: 15px;
@@ -433,10 +437,423 @@
 		color: #798EE7;
 	}
 	
-@media (min-width : 1440px ){
-	body {
-		background-color:cadetblue;
-		min-height: 3000px;
+	#desktop-logo {
+		display: none;
 	}
+	
+	#small-1-inky {
+		display: none;
+	}
+	
+	#textbox {
+		display: none;
+	}
+	
+		#pumpkin{
+		display: none;
+		
+	}
+	
+	#astronauts {
+		display: none;
+	}
+	
+	#octopus-b {
+		display: none;
+	}
+	
+	#pastel-kritters{
+		display: none;
+	}
+	
+	#strawberry {
+		display: none;
+	}
+
+	
 }
+
+
+@media (min-width : 432px ){
+	body {
+	background-image: url("../img/Desktop_Background.png");
+    min-height: 2650px;
+	max-width: 1440px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+	}
+	
+	#header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 1rem;
+    margin-top: 5px;
+  }
+
+  #hero {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 4rem;
+  }
+
+  #white-paper {
+    display: none;
+  }
+
+	.inkymini {
+		display: none;
+	}
+	
+	#small-1-inky {
+		margin: 0px;
+	}
+	
+  #main-logo {
+    display: none;
+  }
+	
+	#desktop-logo {
+		position: absolute;
+    	top: 40px;
+    	left: 200px;
+	}
+	
+	#container {
+	display: none;
+	}
+	
+	#tagline {
+    position: relative;
+    top: 30px;
+    align-content: center;
+    margin-top: 10px;
+	margin-left: 425px;
+		
+  }
+	
+	#textbox{
+	position: relative;
+	}
+	
+	  .tagtext {
+		display: none;
+  }
+	
+	.tagtext2 {
+	width: 400px;
+	height: 120px;
+    margin: 15px;
+    position: absolute;
+    top: 15px;
+    left: 55px;
+    line-height: 1.1; /* Slightly tighter spacing */
+    transform: rotate(-1deg);
+	color: aliceblue;
+  }
+	
+	#chibi-color{
+		position:absolute;
+		margin-left: -60px;
+		margin-top: 0px;
+		height: 170px;
+	}
+	
+	#gifs {
+    display: flex;
+    
+  }
+
+  #gif-1 {
+    position: absolute;
+    top: 460px;
+	  left: 100px;
+  }
+
+  #gif-2 {
+    position: absolute;
+    top: 460px;
+    left: 1135px;
+  }
+	
+	#stickers{
+		position: relative;
+		display: flex;
+		flex-flow: wrap;
+		margin-top: 100px;
+	}
+	
+	#bird { 
+		display: flex;
+		flex-direction: column;
+		height: 450px;
+		margin-left: 100px;
+		margin-top: 50px;
+		}
+	
+	#banana {
+		display: flex;
+		flex-direction: column;
+		height: 300px;
+		margin-left: 30px;
+		
+	}
+	
+	#strawberry {
+		display: flex;
+		flex-direction: column;
+		height: 300px;
+		padding-right: 170px;
+		margin-left: 40px;
+		
+	}
+	
+		#quote {
+		text-align: center;
+		color:aliceblue;
+		position: absolute;
+		margin-left: 620px;
+		margin-top: -180px;
+		transform: rotate(5.5deg);
+		
+	}
+	
+	.bold-fontlarge{
+		font-family: 'Typo Formal Bold Italic';
+		font-weight: bold;
+		display: inline-block;
+		font-size: 58px;
+	}
+	
+	.bold-fontmedium{
+		font-family: 'Typo Formal Bold Italic';
+		font-weight: bold;
+		display: inline-block;
+		font-size: 50px;
+		 
+	}
+	
+	.regular {
+		font-family: 'Typo Formal Light';
+		font-size: 30px;
+	}
+	
+	#skateboard{
+		display:flex;
+		flex-direction: column;
+		align-items: center;
+		transform: rotate(9deg);
+		margin-top: 40px;
+		margin-left: -80px;
+		width: 100%;
+		max-width: 100%;
+		overflow-x: hidden;
+	}
+	
+	#skateboard img {
+		max-width: 100%;
+		height: 600px;
+		display: block;
+		
+	}
+	
+	#pumpkin{
+		margin-top: -200px;
+		transform: rotate(11deg);
+		height: 330px;
+		
+	}
+	
+	#astronauts {
+		position: relative;
+		margin-top: -250px;
+		margin-left: 355px;
+		height: 540px;
+		
+	}
+	
+	#octopus-b {
+		position: absolute;
+		margin-left: 80px;
+		transform: rotate(-12deg);
+		height: 300px;
+		
+	}
+	
+	#pastel-kritters{
+		position: absolute;
+		height: 260px;
+		transform: rotate(12deg);
+		margin-left: -50px;
+		margin-top: -30px;
+	}
+	
+	#gallery{
+		color:aliceblue;
+		text-align: center;
+		margin-top: 50px;
+	
+	}
+	
+	#gallery-title{
+		transform: rotate(-5deg);
+			margin-left: -650px;
+	}
+	
+
+.carousel {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  gap: 0;
+  padding: 40px 0;
+  margin: 0 auto;
+  max-width: 100%;
+  perspective: 1000px; /* makes 3D look */
+}
+
+.carousel-track {
+  display: flex;
+  gap: 0;
+  margin-left: 60px;
+  transform: rotate(-3deg);
+}
+
+/* Each image card */
+.carousel-img {
+  flex: 0 0 auto;
+  height: 350px;
+  margin-left: -250px;
+  scroll-snap-align: center;
+  border-radius: 10px;
+  position: relative;
+  transition: transform 0.4s ease, z-index 0.2s ease;
+  z-index: 1;
+  transform-origin: center center;
+}
+
+/* Fix first from being cut off */
+.carousel-img:first-child {
+  margin-left: 0;
+}
+
+/* tilt & depth effect */
+.carousel-img:nth-child(1) { transform: rotateY(20deg) scale(0.78); }
+.carousel-img:nth-child(2) { transform: rotateY(10deg) scale(0.85); }
+.carousel-img:nth-child(3) { transform: rotateY(0deg) scale(0.9); }
+.carousel-img:nth-child(4) { transform: rotateY(-10deg) scale(1); }
+
+/* Stable Hover Animation Yippeee */
+.carousel-img:hover {
+  transform: scale(1.08) rotateY(0deg) !important;
+  z-index: 10;
+  transition: transform 0.25s ease-out, z-index 0.2s ease;
+}
+
+
+	
+	
+.view-all-btn {
+	background-image: url("../img/button-background.png");
+	background-size:cover;
+	background-position: center;
+	width: 187px;
+	height: 80px;
+	border: none;
+	background-color: transparent;
+	font-family: 'Typo Formal Bold Italic';
+	font-size: 28px;
+	margin-left: -650px;
+}
+	
+	.view-all-btn:hover {
+		
+	transform: scale(1.02);
+	transition: transform 0.2s ease;
+	}
+	
+	.view-all-btn:active {
+		transform: scale(0.98);
+	}
+	
+	#about{
+		position: relative;
+		margin-top: -500px;
+		margin-left: 900px;
+	}
+	
+	#polaroid {
+		position: absolute;
+		transform: rotate(5deg);
+		height: 380px;
+	}
+	
+	.about-me {
+	background-image: url("../img/button-2-background.png");
+	background-size:cover;
+	background-position: center;
+	width: 187px;
+	height: 80px;
+	border: none;
+	background-color: transparent;
+	font-family: 'Typo Formal Bold Italic';
+	font-size: 28px;
+	
+}
+	
+	.about-me:hover {
+		
+	transform: scale(1.02);
+	transition: transform 0.2s ease;
+	}
+	
+	.about-me:active {
+		transform: scale(0.98);
+	}
+	
+	#about-btn{
+		position:absolute;
+		margin-top: 400px;
+		margin-left: 50px;
+	}
+	
+	#chibi-toon{
+		position:absolute;
+		margin-left: 200px;
+		margin-top: 190px;
+	}
+	
+	#footer{
+		position: relative;
+		align-content: center;
+		background-color: transparent;
+		color: #eee;
+		padding:20px;
+		font-size: 14px;
+		text-align: center;
+		font-family: 'Typo Formal Light';
+		letter-spacing: 0.4px;
+		line-height: 3px;
+	}
+	
+	.footer-container{
+		position: absolute;
+		align-content: center;
+		margin-left: 585px;
+		margin-top: 570px;
+	}
+	
+	#footer a {
+		color:#eee;
+		text-decoration: underline;
+	}
+	
+	#footer a:hover {
+		color: #798EE7;
+	}
+	
 }
