@@ -129,6 +129,9 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
   }
 
   .wrapper {
@@ -485,6 +488,9 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
 	}
 	
 	#header nav {
@@ -857,6 +863,16 @@
 	
 	#footer a:hover {
 		color: #798EE7;
+	}
+	
+	#gallery-2{
+	color:aliceblue;
+	text-align: center;
+	margin-top: -15px;
+	}
+	
+		#gallery-title-2{
+		transform: rotate(-4deg)
 	}
 	
 }
